@@ -1,0 +1,36 @@
+body{
+    background-color: burlywood;
+}
+
+/* CARD 1 */
+#info-card{
+    
+    margin-bottom: 50%;
+    margin-left: 50%;
+    
+
+    border: auto;
+    border-style: dashed;
+    border-color: black;
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+#infoBody{
+    border: auto;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+}
+
+#infoFooter{
+    border: 2px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+}
+
+/* END CARD 1 */
