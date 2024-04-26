@@ -20,42 +20,75 @@
 </head>
 
 
+<div class="banner">
+  This is a Light Green Banner
+</div><p></p>
 
 <body>
-
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8">
-        <div class="card-body" id="info-card">
+      
+      <!-- <div class="vstack gap-3">
+        <div class="p-2">First item</div>
+        <div class="p-2">Second item</div>
+        <div class="p-2">Third item</div>
+      </div> -->
+      
+      <form>
+        <div class="col-sm-6">
+          
+          <!-- <label for="userName" class="form-label">USERNAME</label> -->
+          <input id="enterNato" class="form-control" type="text" placeholder="Enter Your Coded Message" name="enterNato">
+          <input id="result" class="form-control" placeholder="Nato Output" name="result">
 
-          <!--REMINDER: IF YOU USE h1..etc instead of DIV it will give you HEADER FONT (h1) or NORMAL FONT (div) -->
+          
+          <label for="inputBox">Enter Letters:</label>
+          <input type="text" id="inputBox">
 
-          <h1 class="card-title">NATO Phonetic Translator<p>Made by Zach Rundle</h1>
+          <label for="outputBox">Phonetic Words:</label>
+          <input type="text" id="outputBox" readonly>
 
-          <div class="card-body" id="infoBody">This page serves as a convenient translator to catch those silly Americans speaking in code.
-            Simply enter one letter at a time and your NATO message will be outputed.</div><p>
 
-          <div class="card-footer" id="infoFooter">
-            <a href="https://github.com/zrundle/zrundle-juliet-lab" target="_blank">REPO</a>
-            |
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Fzrundle%2Fzrundle-juliet-lab" target="_blank">NU Validator</a>
-            |
-            <a href="https://gist.github.com/barrycumbie/68a560e330a2eb227d3a0bbb0d84b9aa" target="_blank">Juliet GIST</a>
-          </div>
+
         </div>
-      </div>
+      </form>
 
+          <div class="col-sm-8">
+            <div class="card-body" id="info-card">
 
+              <!--REMINDER: IF YOU USE h1..etc instead of DIV it will give you HEADER FONT (h1) or NORMAL FONT (div) -->
+
+              <h1 class="card-title">NATO Phonetic Translator<p></p>Made by Zach Rundle</h1>
+
+              <div class="card-body" id="infoBody">This page serves as a convenient translator to catch those silly Americans speaking in code.
+                Simply enter one letter at a time and your NATO message will be outputed.</div><p></p>
+
+              <div class="card-footer" id="infoFooter">
+                <a href="https://github.com/zrundle/zrundle-juliet-lab" target="_blank">REPO</a>
+                |
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fzrundle.github.io%2Fzrundle-juliet-lab%2F" target="_blank">NU Validator</a>
+                |
+                <a href="https://gist.github.com/barrycumbie/68a560e330a2eb227d3a0bbb0d84b9aa" target="_blank">Juliet GIST</a>
+              </div>
+            </div>
+          </div>
 
     </div>
   </div>
 
-
+  
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="scripts/scripts.js"></script>  
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/nato-options.js"></script>  
 </body>
+
+<footer>
+  <div class="foot-banner">
+    This is a Light Green Banner
+  </div>
+</footer>
