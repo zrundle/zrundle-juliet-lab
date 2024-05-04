@@ -1,0 +1,15 @@
+body{
+    background: burlywood;
+}
+
+.banner {
+    background-color: #a2d9ce; 
+    text-align: center;
+    color: #fff; 
+    font-size: 24px;
+    font-weight: bold;
+    border-top: 6px solid #87bba2;
+    border-left: 6px solid #87bba2;
+    border-right: 6px solid #87bba2;
+    border-bottom: 6px solid #87bba2; 
+}
