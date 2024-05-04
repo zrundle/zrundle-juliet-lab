@@ -21,29 +21,31 @@
 
 <div class="banner">
   
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">BC</a>
+    <a class="navbar-brand" href="index.html">HOME PAGE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
+        
         <li class="nav-item">
-          <a class="nav-link" href="numtolettertrans.html">Number to Letter Translator</a>
+          <a class="nav-link" href="LetterNatoTranslator.html">Letter to NATO Translator</a>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link" href="#">See the Code</a>
+          <a class="nav-link" href="NumberToLetterTranslator.html">Number to Letter Translator</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="#">Check this page's validation</a>
         </li>
+        
       </ul>
     </div>
   </div>
 </nav>
-
-
 
   
 </div><p></p>
@@ -51,41 +53,15 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      
-      <!-- <div class="vstack gap-3">
-        <div class="p-2">First item</div>
-        <div class="p-2">Second item</div>
-        <div class="p-2">Third item</div>
-      </div> -->
-      
-      <form>
-        <div class="col-sm-6">
+      <div class="col-sm-8">
+        <div class="card-body" id="info-card">
           
-          <!-- <label for="userName" class="form-label">USERNAME</label> -->
-          <input id="enterNato" class="form-control" type="text" placeholder="Enter Your Coded Message" name="enterNato">
-          <input id="result" class="form-control" placeholder="Nato Output" name="result">
+          <!--REMINDER: IF YOU USE h1..etc instead of DIV it will give you HEADER FONT (h1) or NORMAL FONT (div) -->
+              <h1 class="card-title">WELCOME TO THE TRANSLATOR HOME PAGE<p></p>Made by Zach Rundle</h1>
 
-          
-          <label for="inputBox">Enter Letters:</label>
-          <input type="text" id="inputBox">
-
-          <label for="outputBox">Phonetic Words:</label>
-          <input type="text" id="outputBox" readonly>
-
-
-
-        </div>
-      </form>
-
-          <div class="col-sm-8">
-            <div class="card-body" id="info-card">
-
-              <!--REMINDER: IF YOU USE h1..etc instead of DIV it will give you HEADER FONT (h1) or NORMAL FONT (div) -->
-
-              <h1 class="card-title">NATO Phonetic Translator<p></p>Made by Zach Rundle</h1>
-
-              <div class="card-body" id="infoBody">This page serves as a convenient translator to catch those silly Americans speaking in code.
-                Simply enter one letter at a time and your NATO message will be outputed.</div><p></p>
+              <div class="card-body" id="infoBody">This cool and awesome webpage acts as a host for different ways to translate a message!
+                Whether you're trying to catch those evil Americans or trying to pass a message in class.
+              </div><p></p>
 
               <div class="card-footer" id="infoFooter">
                 <a href="https://github.com/zrundle/zrundle-juliet-lab" target="_blank">REPO</a>
@@ -94,9 +70,9 @@
                 |
                 <a href="https://gist.github.com/barrycumbie/68a560e330a2eb227d3a0bbb0d84b9aa" target="_blank">Juliet GIST</a>
               </div>
-            </div>
-          </div>
 
+          </div>
+        </div>
     </div>
   </div>
 

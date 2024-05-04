@@ -29,8 +29,10 @@ body{
 
 /* CARD 1 */
 #info-card{
-    
-    margin-bottom: 2em;
+
+    position: relative;
+    top: 10em;
+    margin-bottom: 40%;
     margin-left: 50%;
     
 
@@ -60,18 +62,3 @@ h1{
 
 /* END CARD 1 */
 
-
-#enterNato{
-    margin-bottom: 50%;
-    margin-left: 50%;
-}
-
-
-
-/* .vstack {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    align-items: center;
-    align-self: stretch;
-  } */
