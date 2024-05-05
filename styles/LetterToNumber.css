@@ -1,5 +1,6 @@
 body{
     background: burlywood;
+    
 }
 
 .banner {
@@ -12,4 +13,16 @@ body{
     border-left: 6px solid #87bba2;
     border-right: 6px solid #87bba2;
     border-bottom: 6px solid #87bba2; 
+}
+
+#transHeader{
+    text-align: center;
+}
+
+#letterEnter{
+    text-align: center;
+}
+
+#letterOutput{
+    text-align: center;
 }

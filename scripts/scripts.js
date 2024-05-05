@@ -1,6 +1,6 @@
 // Takes text input and prints it in real time
-enterNato.oninput = showValue;
+// enterNato.oninput = showValue;
 
-function showValue(){
-    result.value = this.value;
-}
+// function showValue(){
+//     result.value = this.value;
+// }

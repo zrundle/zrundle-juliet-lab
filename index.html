@@ -38,10 +38,6 @@
           <a class="nav-link" href="LetterToNumberTranslator.html">Number to Letter Translator</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Check this page's validation</a>
-        </li>
-        
       </ul>
     </div>
   </div>
@@ -52,33 +48,35 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="card-body" id="info-card">
-          
-          <!--REMINDER: IF YOU USE h1..etc instead of DIV it will give you HEADER FONT (h1) or NORMAL FONT (div) -->
-              <h1 class="card-title">WELCOME TO THE TRANSLATOR HOME PAGE<p></p>Made by Zach Rundle</h1>
-
-              <div class="card-body" id="infoBody">This cool and awesome webpage acts as a host for different ways to translate a message!
-                Whether you're trying to catch those evil Americans or trying to pass a message in class.
-              </div><p></p>
-
-              <div class="card-footer" id="infoFooter">
-                <a href="https://github.com/zrundle/zrundle-juliet-lab" target="_blank">REPO</a>
-                |
-                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fzrundle.github.io%2Fzrundle-juliet-lab%2F" target="_blank">NU Validator</a>
-                |
-                <a href="https://gist.github.com/barrycumbie/68a560e330a2eb227d3a0bbb0d84b9aa" target="_blank">Juliet GIST</a>
-              </div>
-
-          </div>
-        </div>
-    </div>
+    <div class="card p-5" id="info-card">
+      <div class="card-header">
+        <h1 class="card-title">WELCOME TO THE TRANSLATOR HOME PAGE<p></p>Made by Zach Rundle</h1>
+      </div>
+      <div class="card-body" id="infoBody">This cool and awesome webpage which acts as this host for different ways to translate a message!
+        Whether you're trying to catch those evil Americans or trying to pass a message in class.
+      </div>
+      <p></p>
+      <div class="card-footer" id="infoFooter">
+        <a href="https://github.com/zrundle/zrundle-juliet-lab" target="_blank">REPO</a>
+        |
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fzrundle.github.io%2Fzrundle-juliet-lab%2F" target="_blank">NU Validator</a>
+        |
+        <a href="https://gist.github.com/barrycumbie/68a560e330a2eb227d3a0bbb0d84b9aa" target="_blank">Juliet GIST</a>
+      </div>
   </div>
-
   
+  <!-- Moves two images across the screen going left to right -->
+  <marquee behavior="alternate" direction="left">          
+    <img src="https://cdn.pixabay.com/photo/2016/12/17/22/06/smiley-1914523_1280.png" width="200" height="200" 
+      alt="Emoji-Nerd"> 
+  </marquee>  
 
-
+  <marquee behavior="alternate" direction="right">         
+    <img src="https://private-user-images.githubusercontent.com/157517004/327986100-d976075a-b8f4-4faf-94e8-3275d6030e9f.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ4NzgxNzEsIm5iZiI6MTcxNDg3Nzg3MSwicGF0aCI6Ii8xNTc1MTcwMDQvMzI3OTg2MTAwLWQ5NzYwNzVhLWI4ZjQtNGZhZi05NGU4LTMyNzVkNjAzMGU5Zi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUwNVQwMjU3NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zMjA0MjU3YmIzN2Q3MTEzY2E1YzViNDZlODJhZjRkMTk3MDIxZGU1YjUxOGI5MmMxMjNhNGFkOTE4YjY2OTJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ClUlSybL3JvqLpb58-EnxK7-Ew2xZQhwZHnh7_92CoY" 
+      width="200" height="200"
+      alt="Get A Load"> 
+  </marquee>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -87,8 +85,3 @@
     <script src="scripts/nato-options.js"></script>  
 </body>
 
-<footer>
-  <div class="foot-banner">
-    This is a Light Green Banner
-  </div>
-</footer>

@@ -14,51 +14,49 @@ body{
     border-bottom: 6px solid #87bba2; 
 }
 
-.foot-banner {
-    background-color: #a2d9ce; 
+footer {
+    background-color: #a2d9ce;
     text-align: center;
-    color: #fff; 
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
     border-top: 6px solid #87bba2;
     border-left: 6px solid #87bba2;
     border-right: 6px solid #87bba2;
-    border-bottom: 6px solid #87bba2; 
+    border-bottom: 6px solid #87bba2;
 }
 
-
-/* CARD 1 */
 #info-card{
-
-    position: relative;
-    top: 10em;
-    margin-bottom: 40%;
-    margin-left: 50%;
-    
-
-    border: auto;
+    border: 2px ;
     border-style: dashed;
     border-color: black;
     background-color: bisque;
+    text-align: center;
+    background: lightcoral;
 }
 
 h1{
-    text-align: center;
+    font-family: Cambria;
+    border: auto;
+    border-style: dashed;
+    border-color: black;
+    background: #87bba2;
 }
 
 #infoBody{
     border: auto;
     border-style: dashed;
     border-color: black;
-    text-align: center;
+    background: lightslategray;
+    color: whitesmoke;
+    font-family: Impact;
+    font-size: larger;
 }
 
 #infoFooter{
     border: 2px;
     border-style: dashed;
     border-color: black;
-    text-align: center;
+    background: goldenrod;
 }
-
-/* END CARD 1 */
 

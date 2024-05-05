@@ -42,11 +42,7 @@
             <li class="nav-item">
               <a class="nav-link" href="LetterToNumberTranslator.html">Number to Letter Translator</a>
             </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Check this page's validation</a>
-            </li>
-          
+           
           </ul>
         </div>
       </div>
@@ -57,26 +53,38 @@
 
 <body>
 
-    <div class="container mt-5">
-        <div class="card bg-light p-5">
-            <div class="card-header bg-primary text-white">
-                <h2 class="card-title">WELCOME TO THE LETTER TO NUMBER TRANSLATOR</h2>
-            </div>
-            <div class="card-body">
-                <p class="card-text">
-                    <label for="letterInput">Enter Letters (A-Z):</label>
-                    <input type="text" id="letterInput">
-
-                    <label for="numberOutput">Corresponding Numbers:</label>
-                    <textarea id="numberOutput" rows="4" cols="50" readonly></textarea>
-                </p>
-            </div>
-            <div class="card-footer">
-                <p class="card-text">placeholder for a footer</p>
-            </div>
+  <div class="container mt-5">
+    <div class="card bg-light p-5">
+        <div class="card-header bg-primary text-white">
+            <h1 class="card-title" id="transHeader">WELCOME TO THE LETTER TO NUMBER TRANSLATOR</h1>
         </div>
+
+        <div class="card-body">          
+            <p class="card-text" id="letterEnter">
+                <label for="letterInput">Enter Letters (A-Z):</label>
+                <input type="text" class="form-control mb-3" id="letterInput">
+            </p>
+            <p class="card-text" id="letterOutput">
+                <label for="numberOutput">Corresponding Numbers:</label>
+                <textarea class="form-control" id="numberOutput" rows="4" cols="50" readonly></textarea>
+            </p>
+        </div>
+          
+      <div class="card-footer">
+        <button id="printButton" class="btn btn-primary">Print Output</button>
+      </div>
     </div>
 
+    <div class="card mt-5">
+        <div class="card-header bg-success text-white">
+            <h2 class="card-title">SAVED MESSAGES</h2>
+        </div>
+        <div class="card-body">
+            <ul id="savedMessagesList" class="list-group"></ul>
+        </div>
+    </div>
+</div>
+   
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
